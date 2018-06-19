@@ -23,5 +23,9 @@ def savoury_options():
 
 def available_recipes_choice():
     recipe_number = input("please choose meal number from 1 - {} \n".format(len(available_recipes)))
+    while int(recipe_number) > len(available_recipes) or int(recipe_number) == 0:
+        print("please enter a number corresponding to a recipe")
+        recipe_number = input("please choose meal number from 1 - {} \n".format(len(available_recipes)))
+
     recipe_number = int(recipe_number) - 1
     print("You have chosen {}".format(available_recipes[recipe_number]))
