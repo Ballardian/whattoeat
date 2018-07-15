@@ -1,0 +1,19 @@
+{ "recipes_test" : [ { "meal_name" : "Fajitas",
+        "prep_time" : 5,
+        "cook_time" : 5,
+        "ingredients" : [ "chicken", "wraps", "pepper", "onions", "spinach"
+          ]
+      },
+      { "meal_name" : "Stew",
+        "prep_time" : 10,
+        "cook_time" : 200,
+        "ingredients" : [ "chicken", "pepper", "onions", "spinach", "tomatoes"
+          ]
+      },
+      { "meal_name" : "Poached Eggs",
+        "prep_time" : 2,
+        "cook_time" : 2,
+        "ingredients" : [ "eggs", "bread"]
+      }
+  ]
+  }
